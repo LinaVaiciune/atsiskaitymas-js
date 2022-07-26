@@ -14,3 +14,13 @@ const audi = {
 const showObjectKeys = Object.keys(audi);
 
 console.log(showObjectKeys);
+
+// papildomai:
+
+const showObjectKeysValues = Object.values(audi);
+
+console.log(showObjectKeysValues);
+
+const showObjectKeysEntries = Object.entries(audi);
+
+console.log(showObjectKeysEntries);
