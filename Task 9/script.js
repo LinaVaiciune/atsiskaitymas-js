@@ -32,7 +32,18 @@ Movie.prototype.getSummary = function () {
   return `${this.title} was directed by ${this.director} and cost ${this.budget} USD`;
 };
 
-//
+//dabar turiu prisidėti funkciją, kaip naują parametrą, kuris duotų papildomą
+// reikšmę true, prie kiekvieno filmo, kurio biudžetas > 100000000.
+// nežinau kaip teisingai ją aprašyti.
+
+// Movie.prototype.expensive = function (wasExpensive) {
+//   this.budget = wasExpensive;
+//   this.expensive = if (this.budget > 100000000) {
+//     true;
+//   } else {
+//     false;
+//   };
+// };
 
 console.log(movie1);
 console.log(movie2);

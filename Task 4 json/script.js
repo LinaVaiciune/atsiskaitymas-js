@@ -18,3 +18,15 @@ async function fetchData() {
 }
 
 fetchData();
+
+const carCard = (data) => {
+  const brand = document.createElement("h3");
+  brand.innerText = `${data.brand}`;
+
+  const models = document.createElement("h4");
+  model.innerText = `${data.models}`;
+
+  const carCard = document.querySelector("output");
+  carCard.append(brands, models);
+  document.body.append(carCard);
+};
