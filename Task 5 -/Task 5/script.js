@@ -20,15 +20,17 @@ const users = [
   { id: "9", name: "Daniel Cane", age: 51, hasDog: true },
 ];
 
-// 1. reikia prieiti prie key hasdog:, tada tikrinti, ar reikšmė lygi "true"
-// grąžinti "users", kurie turi augintinį.
+function getDogOwners() {
+  let isDogOwner = users.filter(function (filterDogOwners) {
+    return filterDogOwners.hasDog === true;
+  });
 
-// const filterDogOwers = users.forEach((users) => {
-//   if (users.hasDog) {
-//     hasDog = true;
-//   }
-//   return console.log(filterDogOwers);
-// });
+  for (let key in isDogOwner) {
+    console.log(isDogOwner[key].name);
+  }
+}
+
+getDogOwners();
 
 // 2.
 
