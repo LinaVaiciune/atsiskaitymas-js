@@ -20,6 +20,16 @@ const users = [
   { id: "9", name: "Daniel Cane", age: 51, hasDog: true },
 ];
 
+// 1. reikia prieiti prie key hasdog:, tada tikrinti, ar reikšmė lygi "true"
+// grąžinti "users", kurie turi augintinį.
+
+// const filterDogOwers = users.forEach((users) => {
+//   if (users.hasDog) {
+//     hasDog = true;
+//   }
+//   return console.log(filterDogOwers);
+// });
+
 // 2.
 
 const filterAdults = users.filter((users) => users.age > 17);
